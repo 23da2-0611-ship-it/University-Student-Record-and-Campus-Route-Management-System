@@ -36,17 +36,19 @@ The project includes:
 
 2\. Group Members
 
-Member Name	Student ID	Responsibility	Contribution
+Member Name	Student ID	Responsibility			Contribution
 
-Reeha Rafees	To be added	Linked List / Student Records	To be added
+Reeha Rafees	To be added	Linked List , Student Records	To be added
 
-Jesla Nusky	To be added	Stack / Queue	To be added
+Jesla Nusky	To be added	Stack ,Queue			To be added
 
-Nusla Risal	To be added	BST / Hashing	To be added
+Nusla Risal	To be added	BST ,Hashing			To be added
 
-Afqa Aswer	To be added	Graph / Integration	To be added
+Afqa Aswer	To be added	Graph , Integration		To be added
 
-Student IDs and final contribution details should be updated before final submission.
+
+
+Note: Student IDs and final contribution details should be updated before final submission.
 
 
 
@@ -68,7 +70,11 @@ Student IDs and final contribution details should be updated before final submis
 
 4\. Data Structures Implemented
 
+
+
 4.1 Singly Linked List
+
+
 
 The Linked List is used to store and manage student records.
 
@@ -84,6 +90,8 @@ Student operations include:
 
 •	Display All Students
 
+
+
 Student information contains:
 
 •	Student ID
@@ -98,6 +106,8 @@ Student information contains:
 
 4.2 Stack
 
+
+
 The Stack is used to maintain recent student actions.
 
 Examples:
@@ -107,6 +117,8 @@ Examples:
 •	Updated student
 
 •	Deleted student
+
+
 
 The stack follows the LIFO (Last In, First Out) principle.
 
@@ -264,47 +276,47 @@ The main application provides the following options:
 
 University Campus Management System
 
-│
+|
 
-├── src
+|-- src
 
-│   ├── Student.java
+|   |-- Student.java
 
-│   ├── StudentNode.java
+|   |-- StudentNode.java
 
-│   ├── StudentLinkedList.java
+|   |-- StudentLinkedList.java
 
-│   ├── TestStudent.java
+|   |-- TestStudent.java
 
-│   ├── ActionStack.java
+|   |-- ActionStack.java
 
-│   ├── TestStack.java
+|   |-- TestStack.java
 
-│   ├── ServiceRequest.java
+|   |-- ServiceRequest.java
 
-│   ├── ServiceQueue.java
+|   |-- ServiceQueue.java
 
-│   ├── TestQueue.java
+|   |-- TestQueue.java
 
-│   ├── StudentBST.java
+|   |-- StudentBST.java
 
-│   ├── TestBST.java
+|   |-- TestBST.java
 
-│   ├── StudentHashTable.java
+|   |-- StudentHashTable.java
 
-│   ├── TestHashing.java
+|   |-- TestHashing.java
 
-│   ├── CampusGraph.java
+|   |-- CampusGraph.java
 
-│   ├── TestCampusGraph.java
+|   |-- TestCampusGraph.java
 
-│   └── UniversityCampusManagementSystem.java
+|   `-- UniversityCampusManagementSystem.java
 
-│
+|
 
-├── .gitignore
+|-- .gitignore
 
-└── README.md
+`-- README.md
 
 
 
