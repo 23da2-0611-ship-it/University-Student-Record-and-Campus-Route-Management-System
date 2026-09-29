@@ -1,9 +1,10 @@
 ﻿University Student Record and Campus Route Management System
 CIT300 - Data Structures and Algorithms
 Graded Practical Assignment 1
+________________________________________
 1. Project Description
 This project is a Java console-based University Student Record and Campus Route Management System.
-The system demonstrates the practical use of the following Data Structures and Algorithms:
+The system demonstrates the practical implementation of:
 •	Singly Linked List
 •	Stack
 •	Queue
@@ -11,6 +12,7 @@ The system demonstrates the practical use of the following Data Structures and A
 •	Hashing
 •	Graph
 •	Breadth-First Search (BFS)
+________________________________________
 2. Main Features
 Student Management
 •	Add Student
@@ -40,21 +42,22 @@ Campus Graph
 •	Remove Campus Connection
 •	Display Campus Connections
 •	Perform BFS Traversal
+________________________________________
 3. Student Information
 Each student record contains:
 •	Student ID
 •	Name
 •	Programme
 •	Marks
-4. Sample Students
-Student ID	Name	Programme	Marks
-1001	Reeha Rafees	Information Technology	88.0
-1002	Jesla Nusky	Computer Science	83.0
-1003	Nusla Risal	Information Technology	85.0
-1004	Afqa Aswer	Data Science	88.0
-5. Campus Locations
+Sample Students
+•	1001 - Reeha Rafees - Information Technology - 88.0
+•	1002 - Jesla Nusky - Computer Science - 83.0
+•	1003 - Nusla Risal - Information Technology - 85.0
+•	1004 - Afqa Aswer - Data Science - 88.0
+________________________________________
+4. Campus Locations
 The system uses ICST UNIVERSITY PARK as the campus.
-Sample campus locations include:
+Sample campus locations:
 •	Main Gate
 •	Admin Building
 •	Lobby
@@ -69,7 +72,8 @@ Sample campus locations include:
 •	Girls Hostel
 •	Boys Hostel
 •	Lake
-6. Input Validation
+________________________________________
+5. Input Validation
 The system handles:
 •	Invalid menu input
 •	Invalid marks
@@ -78,35 +82,38 @@ The system handles:
 •	Duplicate campus locations
 •	Missing campus locations
 •	Unavailable campus connections
-7. Project Structure
+________________________________________
+6. Project Structure
 The project source files are stored inside the src folder.
-Main Java files include:
-•	Student.java
-•	StudentNode.java
-•	StudentLinkedList.java
-•	TestStudent.java
-•	ActionStack.java
-•	TestStack.java
-•	ServiceRequest.java
-•	ServiceQueue.java
-•	TestQueue.java
-•	StudentBST.java
-•	TestBST.java
-•	StudentHashTable.java
-•	TestHashing.java
-•	CampusGraph.java
-•	TestCampusGraph.java
-•	UniversityCampusManagementSystem.java
-8. Main Menu
+Main Java files:
+Student.java
+StudentNode.java
+StudentLinkedList.java
+TestStudent.java
+ActionStack.java
+TestStack.java
+ServiceRequest.java
+ServiceQueue.java
+TestQueue.java
+StudentBST.java
+TestBST.java
+StudentHashTable.java
+TestHashing.java
+CampusGraph.java
+TestCampusGraph.java
+UniversityCampusManagementSystem.java
+________________________________________
+7. Main Menu
 The main application provides the following options:
-1.	Student Management
-2.	Service Queue
-3.	Action Stack
-4.	Student BST
-5.	Student Hashing
-6.	Campus Graph
+1. Student Management
+2. Service Queue
+3. Action Stack
+4. Student BST
+5. Student Hashing
+6. Campus Graph
 0. Exit
-9. Data Structures and Algorithms
+________________________________________
+8. Data Structures and Algorithms
 Linked List
 Used to store and manage student records dynamically.
 Stack
@@ -121,13 +128,22 @@ Graph
 Used to represent campus locations as vertices and campus roads or connections as edges.
 BFS
 Breadth-First Search is used to traverse connected campus locations.
-10. Group Members
-Member	Student ID	Responsibility
-Reeha Rafees	23DA2-0614	Student Linked List
-Jesla Nusky	23DA2-0566	Stack and Queue
-Nusla Risal	23DA2-0633	BST and Hashing
-Afqa Aswer	23DA2-0611	Campus Graph
-11. Individual Contributions
+________________________________________
+9. Group Members
+Reeha Rafees
+Student ID: 23DA2-0614
+Responsibility: Student Linked List
+Jesla Nusky
+Student ID: 23DA2-0566
+Responsibility: Stack and Queue
+Nusla Risal
+Student ID: 23DA2-0633
+Responsibility: BST and Hashing
+Afqa Aswer
+Student ID: 23DA2-0611
+Responsibility: Campus Graph
+________________________________________
+10. Individual Contributions
 Reeha Rafees
 Worked on Student Linked List and student record management.
 Jesla Nusky
@@ -136,15 +152,18 @@ Nusla Risal
 Worked on Student BST and Hashing functionality.
 Afqa Aswer
 Worked on Campus Graph, campus locations, campus connections, and BFS traversal.
+Team Contribution
 All group members contributed to integration, testing, debugging, documentation, and the final demonstration.
-12. Technologies Used
+________________________________________
+11. Technologies Used
 •	Java
 •	Java Collections Framework
 •	Git
 •	GitHub
 •	Visual Studio Code
 •	PowerShell
-13. Testing
+________________________________________
+12. Testing
 The system was tested for:
 •	Adding students
 •	Searching students
@@ -161,14 +180,20 @@ The system was tested for:
 •	BFS traversal
 •	Invalid input handling
 Each major data structure was tested separately before integration into the main application.
-14. Compile and Run
-Compile the Java project using:
+________________________________________
+13. Compile and Run
+Compile
 javac -d out src\*.java
-Run the main application using:
+Run
 java -cp out UniversityCampusManagementSystem
-15. GitHub Repository
+________________________________________
+14. GitHub Repository
 This repository contains the complete Java source code, README documentation, test files, and project files for the CIT300 Graded Practical Assignment 1.
-16. Conclusion
+________________________________________
+15. Conclusion
 This project demonstrates the practical implementation of fundamental Data Structures and Algorithms in Java through a University Student Record and Campus Route Management System.
-The system combines student management, service requests, recent actions, student searching, and campus route management into one console-based application.
+The system combines student management, service requests, recent actions, student searching, and campus route management into one console-based Java application.
+________________________________________
+CIT300 - Data Structures and Algorithms
+University Student Record and Campus Route Management System
 
