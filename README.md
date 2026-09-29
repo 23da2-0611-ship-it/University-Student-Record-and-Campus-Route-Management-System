@@ -121,10 +121,10 @@ The main application provides the following options:
 
 | Member | Student ID | Responsibility |
 |--------|------------|----------------|
-| Reeha Rafees | To be added | Student Linked List |
-| Jesla Nusky | To be added | Stack and Queue |
-| Nusla Risal | To be added | BST and Hashing |
-| Afqa Aswer | To be added | Campus Graph |
+| Reeha Rafees | 23DA2-0614 | Student Linked List |
+| Jesla Nusky | 23DA2-0566 | Stack and Queue |
+| Nusla Risal | 23DA2-0633 | BST and Hashing |
+| Afqa Aswer | 23DA2-0611 | Campus Graph |
 
 ## 10. Individual Contributions
 
